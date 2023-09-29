@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imágenes Aleatorias de Perros</title>
+    <title>Imágenes de Perritos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Imágenes Aleatorias de Perros</h1>
-    <div id="image-container">
-        <img id="random-image" src="" alt="Imagen de perro aleatoria">
-    </div>
-    <button id="load-image">Quiero más dopamina!</button>
+    <h1>Bienvenidx al Paraiso de Perritos</h1>
+    <br>
+    <section id="breed-section">
+        <h2>Encuentra Imágenes por Raza</h2>
+        <label for="breed-input">Escribe el nombre de la raza:</label>
+        <input type="text" id="breed-input" placeholder="Ejemplo: retriever">
+        <br>
+        <div id="breed-image-container">
+            <img id="breed-image" src="" alt="Imagen de perro por raza">
+        </div>
+        <br>
+        <button id="load-breed-image">Cargar Imagen por Raza</button>
+    </section>
+    <br>
+    <section id="random-section">
+        <h2>La Ternura Sigue</h2>
+        <div id="image-container">
+            <img id="random-image" alt="Imagen de perro aleatoria">
+        </div>
+        <br>
+        <button id="load-random-image">Por más dopamina clickea acá!</button>
+        
+    </section>
+
 <script src="script.js"></script>
 </body>
 </html>
